@@ -41,9 +41,20 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\UltimateIsometricToolkit\SnappingTool\Editor\SnappingTool.cs" />
      <Compile Include="Assets\UltimateIsometricToolkit\SnappingTool\Editor\EditorGUILayoutExtensions.cs" />
+     <Compile Include="Assets\UltimateIsometricToolkit\SnappingTool\Editor\SnappingTool.cs" />
      <Compile Include="Assets\UltimateIsometricToolkit\Editor\EditorHelpers.cs" />
+     <Compile Include="Assets\TBS Framework\Editor\GridGenerators\RectangularSquareGridGenerator.cs" />
+     <Compile Include="Assets\TBS Framework\Editor\GridGenerators\TriangularHexGridGenerator.cs" />
+     <Compile Include="Assets\TBS Framework\Editor\GridHelper.cs" />
+     <Compile Include="Assets\TBS Framework\Editor\CustomUnitGeneratorHelper.cs" />
+     <Compile Include="Assets\TBS Framework\Editor\GridGenerators\RectangularHexGridGenerator.cs" />
+     <Compile Include="Assets\TBS Framework\Editor\GridGenerators\ICellGridGenerator.cs" />
+     <Compile Include="Assets\TBS Framework\Editor\GridHelperUtils.cs" />
+     <Compile Include="Assets\TBS Framework\Editor\GridGenerators\HexagonalHexGridGenerator.cs" />
+     <Compile Include="Assets\TBS Framework\Editor\GridGenerators\EquilateralHexGridGenerator.cs" />
+     <Folder Include="Assets\TBS Framework\Editor\GridGenerators" />
+     <Folder Include="Assets\TBS Framework\Editor" />
      <Folder Include="Assets\UltimateIsometricToolkit\Editor" />
      <Folder Include="Assets\UltimateIsometricToolkit\SnappingTool\Editor" />
      <Reference Include="UnityEngine">
@@ -890,6 +901,10 @@
       <Project>{59cb5281-25c6-c033-5151-df956c09090f}</Project>
       <Name>Unity.2D.SpriteShape.Editor</Name>
     </ProjectReference>
+    <ProjectReference Include="UltimateIsometricToolkit.csproj">
+      <Project>{54df13ae-ebdf-8657-5618-8218380a6540}</Project>
+      <Name>UltimateIsometricToolkit</Name>
+    </ProjectReference>
     <ProjectReference Include="Unity.2D.Common.Editor.csproj">
       <Project>{c9c2be2f-dbdb-411b-5a45-735a27b799e8}</Project>
       <Name>Unity.2D.Common.Editor</Name>
@@ -901,10 +916,6 @@
     <ProjectReference Include="Unity.VisualScripting.State.csproj">
       <Project>{52843990-255a-6beb-4482-5c44c797db01}</Project>
       <Name>Unity.VisualScripting.State</Name>
-    </ProjectReference>
-    <ProjectReference Include="UltimateIsometricToolkit.csproj">
-      <Project>{54df13ae-ebdf-8657-5618-8218380a6540}</Project>
-      <Name>UltimateIsometricToolkit</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
