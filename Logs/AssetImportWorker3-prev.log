@@ -1,0 +1,870 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.21f1c1 (08fa194de70f) revision 588313'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/VS/VS项目1
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+59752
+Successfully changed project path to: D:/VS/VS项目1
+D:/VS/VS项目1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9500] Host "[IP] 10.31.118.206 [Port] 0 [Flags] 2 [Guid] 2477359838 [EditorId] 2477359838 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-J979BD42) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [9500] Host "[IP] 10.31.118.206 [Port] 0 [Flags] 2 [Guid] 2477359838 [EditorId] 2477359838 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-J979BD42) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 178.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1c1 (08fa194de70f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/VS/VS项目1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7862 MB
+    Driver:   27.20.14022.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56596
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008052 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 197.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1219ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (869ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (508ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (197ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (210ms)
+				ProcessInitializeOnLoadMethodAttributes (86ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.039092 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 123.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.800 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1801ms)
+		BeginReloadAssembly (138ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1501ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (279ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (968ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (123ms)
+				BeforeProcessingInitializeOnLoad (149ms)
+				ProcessInitializeOnLoadAttributes (616ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (186.0 KB). Loaded Objects now: 4293.
+Memory consumption went from 147.5 MB to 147.3 MB.
+Total: 4.981800 ms (FindLiveObjects: 0.406500 ms CreateObjectMapping: 0.142200 ms MarkObjects: 4.213100 ms  DeleteObjects: 0.218100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 788788.329396 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/crate3.png
+  artifactKey: Guid(f086db9e70feb4d8cb258a29d8b76686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/crate3.png using Guid(f086db9e70feb4d8cb258a29d8b76686) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9886f628eb603b70ae25a591075870df') in 0.157716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_070.png
+  artifactKey: Guid(5a814a6bd899b4dd2b08fd77745057c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_070.png using Guid(5a814a6bd899b4dd2b08fd77745057c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46f01cd018f7bf51ddd2695633f4862b') in 0.040591 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_047.png
+  artifactKey: Guid(f64011df2e18f4c8590b7ac41442f08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_047.png using Guid(f64011df2e18f4c8590b7ac41442f08d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa08bb95336bcd43b1af7bbabc02f765') in 0.068378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/e1.png
+  artifactKey: Guid(c3887d7b5dd984bfd8ebf6b43dd13d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/e1.png using Guid(c3887d7b5dd984bfd8ebf6b43dd13d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e8a40f3436efddc5ba93521a9402d6') in 0.044851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_117.png
+  artifactKey: Guid(79843e041da854bf3b39a427d0737da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_117.png using Guid(79843e041da854bf3b39a427d0737da8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91725756ddcf382b846a49a9df0efca7') in 0.042671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_077.png
+  artifactKey: Guid(f7718d95b09064061bfe2e5c5ecff5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_077.png using Guid(f7718d95b09064061bfe2e5c5ecff5b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a20050e01f0c4142e95061636da814b0') in 0.048568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_053.png
+  artifactKey: Guid(884106721fb4b4007844906778639150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_053.png using Guid(884106721fb4b4007844906778639150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0df2f7cc58704dcb20e8d84d113f77') in 0.057306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_043.png
+  artifactKey: Guid(6782c8f5638ac45bfb2e1df0e8c0af62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_043.png using Guid(6782c8f5638ac45bfb2e1df0e8c0af62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aadc06d4d1e55b1f4a2cd573d5b622cb') in 0.048840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_029.png
+  artifactKey: Guid(05cbf4da947204c46a20e632dfb37996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_029.png using Guid(05cbf4da947204c46a20e632dfb37996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdafef131fb10f860aef6bc12d9e6b5d') in 0.055650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_016.png
+  artifactKey: Guid(ebd50329949934fadb0f949a0368f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_016.png using Guid(ebd50329949934fadb0f949a0368f62f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8385d210ae3a9c5498e42bf2bc404c52') in 0.058391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_097.png
+  artifactKey: Guid(cb6c436d92f334c5489f954b4589f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_097.png using Guid(cb6c436d92f334c5489f954b4589f95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f90a3826f03cc077fa13ea2d23ac0aa') in 0.059623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_051.png
+  artifactKey: Guid(40752d58ad7744b268e0ccd9151faafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_051.png using Guid(40752d58ad7744b268e0ccd9151faafc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c89b5acf2f243545e4469bd47125be0e') in 0.062018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_071.png
+  artifactKey: Guid(9735121af31064839b1feefec34e911d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_071.png using Guid(9735121af31064839b1feefec34e911d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3fb0d97d6e5c6d0488ecea092ebb05') in 0.090102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_017.png
+  artifactKey: Guid(af25328f386f144aab1cbbe87f59923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_017.png using Guid(af25328f386f144aab1cbbe87f59923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6575bf555a0966e56dbd7bd318e000f') in 0.057261 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_022.png
+  artifactKey: Guid(4f5e1365faf0245128439cf928c25373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_022.png using Guid(4f5e1365faf0245128439cf928c25373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727ac844d5407ca10fcbbaa547468d0e') in 0.116158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_075.png
+  artifactKey: Guid(a56854bd17a954127a0bc999ec46a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_075.png using Guid(a56854bd17a954127a0bc999ec46a5d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '846e58e5b99479ea09f410e2d47ba06f') in 0.045829 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityDetails_007.png
+  artifactKey: Guid(0cb0183a69dea4a0598d497b2b61edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityDetails_007.png using Guid(0cb0183a69dea4a0598d497b2b61edd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59777e5651488bb64686a8b5c8a5d2d6') in 0.047384 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/w3.png
+  artifactKey: Guid(5972dc20624a649fd8147b2d1f678ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/w3.png using Guid(5972dc20624a649fd8147b2d1f678ace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd971155475fd1581fe2c15e6516f3d4') in 0.109612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/t1.png
+  artifactKey: Guid(fc82d1fd5213c41fe9d22e3f56f4747f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/t1.png using Guid(fc82d1fd5213c41fe9d22e3f56f4747f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2f23329d033802cc0d514f896fac54') in 0.073631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_126.png
+  artifactKey: Guid(7fc2738466ea24edf935462b335910f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_126.png using Guid(7fc2738466ea24edf935462b335910f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6c2b3add55316e33f528ed0097938be') in 0.094461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_074.png
+  artifactKey: Guid(1d0f44b7655af41739e101f501bc1bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_074.png using Guid(1d0f44b7655af41739e101f501bc1bf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1c280121329854c38a360fb013d0b5') in 0.128785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.035359 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_123.png
+  artifactKey: Guid(319e16e2c85f447d685cdac85c1eb88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_123.png using Guid(319e16e2c85f447d685cdac85c1eb88f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2bdf804ab50fc4208b3ba3b14dd25ec') in 0.202421 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr7.png
+  artifactKey: Guid(c04c4ff1f65a54297a219aa44bd36ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr7.png using Guid(c04c4ff1f65a54297a219aa44bd36ac4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08b0bad17226be1456be640fc73283d') in 0.095367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_111.png
+  artifactKey: Guid(493bebc42977b4a91ab25bc1435f0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_111.png using Guid(493bebc42977b4a91ab25bc1435f0421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '156520f8ccbabeaa8b4c1660b09a00b2') in 0.062454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_043.png
+  artifactKey: Guid(1f82ad9f5e0ab45b9882603ede00108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_043.png using Guid(1f82ad9f5e0ab45b9882603ede00108e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec007dd240e4937ab61fd138779d6932') in 0.061493 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/d2.png
+  artifactKey: Guid(8e27f11ca607d46ea9b9ffb7541f3ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/d2.png using Guid(8e27f11ca607d46ea9b9ffb7541f3ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedf81f7e55457b000f006b7aa60982b') in 0.057771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_114.png
+  artifactKey: Guid(ebabfb92d7bd34cd8872a4eb5cfc8732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_114.png using Guid(ebabfb92d7bd34cd8872a4eb5cfc8732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf0b3eed03168047b1aa97e06237dff') in 0.048871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/t4.png
+  artifactKey: Guid(5fd8b25b91a044ce5af934c7654b7646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/t4.png using Guid(5fd8b25b91a044ce5af934c7654b7646) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '548ba37a860e3fff2575a6d4079313c7') in 0.075821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_105.png
+  artifactKey: Guid(3b012f87a4a04486db179adb969b7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_105.png using Guid(3b012f87a4a04486db179adb969b7637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acca9b72c8bdfaf965d8837e086ed0a3') in 0.057389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_102.png
+  artifactKey: Guid(06eaceeceb7454d599e24b5816c7469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_102.png using Guid(06eaceeceb7454d599e24b5816c7469f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bee2281fe070897a522b7b4e499573a') in 0.063039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_049.png
+  artifactKey: Guid(5bb8e68dc74184c5da730df7225f46ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_049.png using Guid(5bb8e68dc74184c5da730df7225f46ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da56c44fe5b4e15b96d3a52fa074c0b') in 0.049555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_050.png
+  artifactKey: Guid(d66a21eb544d842cb9ecfe60a1e9510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_050.png using Guid(d66a21eb544d842cb9ecfe60a1e9510b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0eb16cd0b1b41f78a1cc4720cba50689') in 0.073197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/chest1-open3.png
+  artifactKey: Guid(e529800e49b744152bc38db4fbd5468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/chest1-open3.png using Guid(e529800e49b744152bc38db4fbd5468e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e68f59a34e25411e54be23f9e8a5d76') in 0.069904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_103.png
+  artifactKey: Guid(33ed284e6ebc34df79a4de71b98eb8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_103.png using Guid(33ed284e6ebc34df79a4de71b98eb8ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0b3b20de6eb3035ca9f0c85a91ba9d0') in 0.047362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_115.png
+  artifactKey: Guid(78081f59a181247bd9eb1c4945e0d7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_115.png using Guid(78081f59a181247bd9eb1c4945e0d7aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '029c2b7c00ce0c43cb3f0b8c7702ef67') in 0.052695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr4.png
+  artifactKey: Guid(09e7a57d60c084ea2b2b5d6e27deb8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr4.png using Guid(09e7a57d60c084ea2b2b5d6e27deb8db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9d2ae3d2dc76077e084070ab444808') in 0.036589 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/w7.png
+  artifactKey: Guid(9d2b826baca5f44a0bcdfcedfa671328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/w7.png using Guid(9d2b826baca5f44a0bcdfcedfa671328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0be06b5bc697a409d76a60ec2d71250') in 0.045991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/tile2.png
+  artifactKey: Guid(5862845d5a7c245489a0fffad90aba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/tile2.png using Guid(5862845d5a7c245489a0fffad90aba5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69f895c0a1881f23cb6f428a64d2eb79') in 0.062777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_038.png
+  artifactKey: Guid(c74657b1c3f6f45eaa9fb6cf3e66c999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_038.png using Guid(c74657b1c3f6f45eaa9fb6cf3e66c999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6b32efefcbc68991dbf980a9d89285') in 0.041065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_125.png
+  artifactKey: Guid(1b8897718516346d98907886c81161f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_125.png using Guid(1b8897718516346d98907886c81161f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99c72119cf6d7cd288256689cb3754be') in 0.041841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/t2.png
+  artifactKey: Guid(4d58e496de0424a6dacd059b7d383151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/t2.png using Guid(4d58e496de0424a6dacd059b7d383151) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376da6dd3602a874c8f16004e27be288') in 0.047302 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_116.png
+  artifactKey: Guid(98d0ef6ea19774ef8a1d59bbac93e91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_116.png using Guid(98d0ef6ea19774ef8a1d59bbac93e91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c12fc22fcc3f3a8b306762c65355c5') in 0.043861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_030.png
+  artifactKey: Guid(c3d2c1154d0ee40d6a29f7bda32937fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_030.png using Guid(c3d2c1154d0ee40d6a29f7bda32937fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a104262533e20bcd72b608ac31255025') in 0.049053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_037.png
+  artifactKey: Guid(b883caaf116e045b89736c5bfa16a7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_037.png using Guid(b883caaf116e045b89736c5bfa16a7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00c8bc2e22501f6b89d5a4be1866e9f5') in 0.051633 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityDetails_004.png
+  artifactKey: Guid(26e03b3e0c52040e7959d8215a52a492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityDetails_004.png using Guid(26e03b3e0c52040e7959d8215a52a492) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abfe3c262c743b8b9d72be3ffd8f908') in 0.042055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityDetails_001.png
+  artifactKey: Guid(73458a802fe0b479f952c45671ac31d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityDetails_001.png using Guid(73458a802fe0b479f952c45671ac31d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430a8dc5e5350e8f1460492f723463b5') in 0.034241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_022.png
+  artifactKey: Guid(224589a9608124f7395934938e1fd250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_022.png using Guid(224589a9608124f7395934938e1fd250) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d43364f2c554ff77d1ecb9f5d75563c') in 0.040403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IsoTools/Examples/Images/Simple/Floor.png
+  artifactKey: Guid(acb19fa5475385a47a614d3a2f318ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Simple/Floor.png using Guid(acb19fa5475385a47a614d3a2f318ed1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61387baa1e312bf0e44d568da9638355') in 0.036894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_010.png
+  artifactKey: Guid(d38b7d5a2bdfe4716bc654bcb15ef741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_010.png using Guid(d38b7d5a2bdfe4716bc654bcb15ef741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0702cf10fc06a5d55da024cf1517d8f8') in 0.037636 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_076.png
+  artifactKey: Guid(86af97dbaf38640db9994873c31c31ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_076.png using Guid(86af97dbaf38640db9994873c31c31ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e84b1afc727945d9fdbf34092a4b997') in 0.038236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_027.png
+  artifactKey: Guid(e9c2ee08cb7c34f0da9a678a77c73311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_027.png using Guid(e9c2ee08cb7c34f0da9a678a77c73311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76268e48e0623ec4837c33d68588469f') in 0.049050 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.030949 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.272 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1272ms)
+		BeginReloadAssembly (157ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (993ms)
+			LoadAssemblies (116ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (212ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (556ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (100ms)
+				ProcessInitializeOnLoadAttributes (397ms)
+				ProcessInitializeOnLoadMethodAttributes (36ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.59 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (152.8 KB). Loaded Objects now: 4366.
+Memory consumption went from 150.0 MB to 149.9 MB.
+Total: 4.543500 ms (FindLiveObjects: 0.251900 ms CreateObjectMapping: 0.115500 ms MarkObjects: 3.952900 ms  DeleteObjects: 0.221400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.039701 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.081 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2082ms)
+		BeginReloadAssembly (245ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1632ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (367ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (898ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (632ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.19 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (152.7 KB). Loaded Objects now: 4369.
+Memory consumption went from 150.0 MB to 149.9 MB.
+Total: 3.381700 ms (FindLiveObjects: 0.263400 ms CreateObjectMapping: 0.098100 ms MarkObjects: 2.889100 ms  DeleteObjects: 0.130300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.031733 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.184 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2185ms)
+		BeginReloadAssembly (282ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1717ms)
+			LoadAssemblies (207ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (385ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (951ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (691ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 8.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (153.6 KB). Loaded Objects now: 4372.
+Memory consumption went from 150.0 MB to 149.9 MB.
+Total: 7.381100 ms (FindLiveObjects: 1.193700 ms CreateObjectMapping: 0.291900 ms MarkObjects: 5.587900 ms  DeleteObjects: 0.302700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.033060 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.761 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1762ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (1361ms)
+			LoadAssemblies (166ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (308ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (731ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (132ms)
+				ProcessInitializeOnLoadAttributes (524ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.89 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (152.6 KB). Loaded Objects now: 4375.
+Memory consumption went from 150.0 MB to 149.9 MB.
+Total: 3.528100 ms (FindLiveObjects: 0.287300 ms CreateObjectMapping: 0.118800 ms MarkObjects: 2.941700 ms  DeleteObjects: 0.179000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022794 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.605 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1606ms)
+		BeginReloadAssembly (210ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1257ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (294ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (62ms)
+			SetupLoadedEditorAssemblies (667ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (114ms)
+				ProcessInitializeOnLoadAttributes (486ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (152.7 KB). Loaded Objects now: 4378.
+Memory consumption went from 150.1 MB to 149.9 MB.
+Total: 5.874200 ms (FindLiveObjects: 0.353600 ms CreateObjectMapping: 0.138300 ms MarkObjects: 5.120700 ms  DeleteObjects: 0.258000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.038267 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.54 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2123ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1679ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (391ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (881ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (638ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.67 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (152.6 KB). Loaded Objects now: 4381.
+Memory consumption went from 150.1 MB to 149.9 MB.
+Total: 6.382000 ms (FindLiveObjects: 0.519300 ms CreateObjectMapping: 0.175800 ms MarkObjects: 5.415700 ms  DeleteObjects: 0.267300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028128 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.84 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.871 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1871ms)
+		BeginReloadAssembly (252ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (73ms)
+		EndReloadAssembly (1427ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (386ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (695ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (136ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 7.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3816 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (152.5 KB). Loaded Objects now: 4384.
+Memory consumption went from 150.1 MB to 149.9 MB.
+Total: 5.646800 ms (FindLiveObjects: 0.550000 ms CreateObjectMapping: 0.129800 ms MarkObjects: 4.587800 ms  DeleteObjects: 0.376200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

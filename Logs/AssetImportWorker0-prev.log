@@ -1,0 +1,643 @@
+Using pre-set license
+Built from '2021.3/china_unity/release' branch; Version is '2021.3.21f1c1 (08fa194de70f) revision 588313'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 15724 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.21f1c1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/VS/VS项目1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59752
+Successfully changed project path to: D:/VS/VS项目1
+D:/VS/VS项目1
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [7684] Host "[IP] 10.31.118.206 [Port] 0 [Flags] 2 [Guid] 2452346222 [EditorId] 2452346222 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-J979BD42) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7684] Host "[IP] 10.31.118.206 [Port] 0 [Flags] 2 [Guid] 2452346222 [EditorId] 2452346222 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-J979BD42) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 179.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.21f1c1 (08fa194de70f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/VS/VS项目1/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon(TM) Graphics (ID=0x1638)
+    Vendor:   ATI
+    VRAM:     7862 MB
+    Driver:   27.20.14022.3
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.21f1c1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009277 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 176.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.043 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1044ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (758ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (152ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (473ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (176ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (93ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.043325 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\VS\VS项目1\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 183.35 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.153 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2154ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (1734ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (377ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (1012ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (183ms)
+				BeforeProcessingInitializeOnLoad (210ms)
+				ProcessInitializeOnLoadAttributes (549ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3835 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (186.0 KB). Loaded Objects now: 4293.
+Memory consumption went from 147.5 MB to 147.3 MB.
+Total: 3.668100 ms (FindLiveObjects: 0.299200 ms CreateObjectMapping: 0.114600 ms MarkObjects: 3.094200 ms  DeleteObjects: 0.159100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 788786.840561 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/e4.png
+  artifactKey: Guid(79391370f48e74ff4accf04be9e53f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/e4.png using Guid(79391370f48e74ff4accf04be9e53f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a63b5db6cc6febfd8a540da24d85ae4') in 0.132947 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/UI/Arrow-up.png
+  artifactKey: Guid(93c5bcc9e8fbb44339119ce13b9d502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/UI/Arrow-up.png using Guid(93c5bcc9e8fbb44339119ce13b9d502a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b611b9be68a48bb3ba90baf53ba0e18f') in 0.039796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/tile7.png
+  artifactKey: Guid(833b321ac96864c4ab143a7b680bd5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/tile7.png using Guid(833b321ac96864c4ab143a7b680bd5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d43ae83dfda97fa49d0ee3b2ae676e') in 0.055719 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/AttentionIcon.png
+  artifactKey: Guid(05487cf5420d54b2bae0bdcdb00974e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/AttentionIcon.png using Guid(05487cf5420d54b2bae0bdcdb00974e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1e2d9a0b08802cc2a5c84a8d65c125') in 0.046055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_038.png
+  artifactKey: Guid(a9f21c9ab4bc544e09f5ed83ebe6040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_038.png using Guid(a9f21c9ab4bc544e09f5ed83ebe6040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47761f24132c6c01bd648ca74f653dad') in 0.056593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_072.png
+  artifactKey: Guid(d478ab7f96a2645bb8dd54c4b3c7661c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_072.png using Guid(d478ab7f96a2645bb8dd54c4b3c7661c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e66150db632977d443f38142c2b0b79') in 0.043485 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_052.png
+  artifactKey: Guid(d1b7db2cb3286474da00154917b13466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_052.png using Guid(d1b7db2cb3286474da00154917b13466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41201f3f7e1920440690150c20c58f8f') in 0.046056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/h1.png
+  artifactKey: Guid(cb10d602f8e2048838a9de3d943bc789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/h1.png using Guid(cb10d602f8e2048838a9de3d943bc789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f205055fe1c293e8baf0291deecf8a95') in 0.054670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/t8.png
+  artifactKey: Guid(c31a060804e8b49be96f6034ab78f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/t8.png using Guid(c31a060804e8b49be96f6034ab78f758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29206de7554defca08a46bffcf3c7856') in 0.055582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_118.png
+  artifactKey: Guid(3343e3be40d0544c0858448aa8e37823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_118.png using Guid(3343e3be40d0544c0858448aa8e37823) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31affee3cb1cae1740a45a95db35c4bb') in 0.048004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityDetails_002.png
+  artifactKey: Guid(3b3b865c3df264ad0964b1f0286bf8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityDetails_002.png using Guid(3b3b865c3df264ad0964b1f0286bf8e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694e92ff915a823ce429a25249ecae2b') in 0.042842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_008.png
+  artifactKey: Guid(f0188a1e9402c49808e33b661247e96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_008.png using Guid(f0188a1e9402c49808e33b661247e96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6052eb9ec3f7ef456b524e872c44c51') in 0.040461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_042.png
+  artifactKey: Guid(d149c214e0e154e7f9247b192b4bced9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_042.png using Guid(d149c214e0e154e7f9247b192b4bced9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57775805e55e32c212e7496cc707a7f') in 0.036519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_124.png
+  artifactKey: Guid(34a0d68be59fd4b2ca4e2a7b63f1375a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_124.png using Guid(34a0d68be59fd4b2ca4e2a7b63f1375a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4261c6471c620419f851ff5a9f869ea8') in 0.039684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_044.png
+  artifactKey: Guid(f037176e4b3a44901b56de2badb1d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_044.png using Guid(f037176e4b3a44901b56de2badb1d0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1289c08c0d80d7fa9eaa7bd91a387bc') in 0.046639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr2.png
+  artifactKey: Guid(662d204b2c69e460893e56a94978516e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr2.png using Guid(662d204b2c69e460893e56a94978516e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cadf372f63322c932279b0e1979d359') in 0.053985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr5.png
+  artifactKey: Guid(df7604cee5a0d48a6a92297f8b06f4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr5.png using Guid(df7604cee5a0d48a6a92297f8b06f4d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661da513a666c51db573c187e85cc85d') in 0.041285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_069.png
+  artifactKey: Guid(644d0d36321c540799eca491bcdfe41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_069.png using Guid(644d0d36321c540799eca491bcdfe41d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34527d8b304e22de5d7809fc6dfc7a0') in 0.037878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_015.png
+  artifactKey: Guid(508e3b79d25df457fb88740ce10ae0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_015.png using Guid(508e3b79d25df457fb88740ce10ae0b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db11fc3fbe730460db899407f9c7046') in 0.045561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/parts/C1LEye.png
+  artifactKey: Guid(bd1dc29a2d4c347168d65f3fba961112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/parts/C1LEye.png using Guid(bd1dc29a2d4c347168d65f3fba961112) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537e5970599e32e60f03d8d7ab6a2268') in 0.037217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_045.png
+  artifactKey: Guid(6bcf25bb0ed104d108cdf99524597e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_045.png using Guid(6bcf25bb0ed104d108cdf99524597e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b3809d6c5c111d1ca1d99d82a97f88f') in 0.039047 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_016.png
+  artifactKey: Guid(bc1f439e205634fe5aedf8fd90ea48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_016.png using Guid(bc1f439e205634fe5aedf8fd90ea48a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b1c4185cfdfd582dc2b57952b5e1a7') in 0.036792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_073.png
+  artifactKey: Guid(159761a461a91462c82d3b1b08d245a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_073.png using Guid(159761a461a91462c82d3b1b08d245a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c981b1e8ea61aca810bdb8e194a1c1') in 0.037165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_101.png
+  artifactKey: Guid(cff42833a426845cf84e68793a0954be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_101.png using Guid(cff42833a426845cf84e68793a0954be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd0fb3283b412fb6001c373c5040283c') in 0.032490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/h3.png
+  artifactKey: Guid(c457b8843168247468c7678fc2481458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/h3.png using Guid(c457b8843168247468c7678fc2481458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1972db92277a3d0fef5fc201f549033') in 0.048335 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_057.png
+  artifactKey: Guid(22b4f7c4bef6246dcb2a093d4e5345cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_057.png using Guid(22b4f7c4bef6246dcb2a093d4e5345cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5493ead972515a9c7e89832873adcb4e') in 0.033338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IsoTools/Examples/Images/Simple/Cube_1x1x3.png
+  artifactKey: Guid(529e3cb7140cf0340a859f744523212e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Simple/Cube_1x1x3.png using Guid(529e3cb7140cf0340a859f744523212e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71756bf842fd564c2e049f8ab3ad606') in 0.033441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/e7.png
+  artifactKey: Guid(eecf2230891f048c1b102f149576a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/e7.png using Guid(eecf2230891f048c1b102f149576a132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c2acae65a03d0422d4e2be2c33853a1') in 0.031002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_000.png
+  artifactKey: Guid(de158fcb9c2ba4851abe27b126bf6166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_000.png using Guid(de158fcb9c2ba4851abe27b126bf6166) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c358c43ecb0bcb67210d6f1359db26') in 0.032746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_065.png
+  artifactKey: Guid(8cf04741ed7d141dfb8b02eafc0891c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_065.png using Guid(8cf04741ed7d141dfb8b02eafc0891c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e9c62c64c893fd2e759aed0521b5b2') in 0.044026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/NPC5.png
+  artifactKey: Guid(6390512b61ecf4e53bd46e78c73be384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/NPC5.png using Guid(6390512b61ecf4e53bd46e78c73be384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6fc12c150e31267ba40217537dd554b') in 0.054587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityDetails_005.png
+  artifactKey: Guid(d2bd69190895949ba8ea55f7b6bae72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityDetails_005.png using Guid(d2bd69190895949ba8ea55f7b6bae72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e30b0d171383ed223208933febe80524') in 0.069235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_095.png
+  artifactKey: Guid(4341017079e5442f78ba1eba0e5e4384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_095.png using Guid(4341017079e5442f78ba1eba0e5e4384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e482d2a1cd0bfb2661352e3342a4464f') in 0.045536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/chest1.png
+  artifactKey: Guid(4be9a6dc5efe34a2692647c7a886f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/chest1.png using Guid(4be9a6dc5efe34a2692647c7a886f641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47ed8e36dea494f3054a1ea0119c1dd6') in 0.050661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr6.png
+  artifactKey: Guid(fec462511c97b4a32a2107e3fc342950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr6.png using Guid(fec462511c97b4a32a2107e3fc342950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9d408702228471ac5fa97dce6bb620') in 0.048557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_012.png
+  artifactKey: Guid(93731425f6253401f912b3ed9f6c2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_012.png using Guid(93731425f6253401f912b3ed9f6c2b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df24aef66ba83491c8e8f5fd362dcac6') in 0.051441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_023.png
+  artifactKey: Guid(e6bb11e1ef7fc4408a4520ffa7657964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_023.png using Guid(e6bb11e1ef7fc4408a4520ffa7657964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2304e02813658d162a8664ef2d78a25c') in 0.057517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/UI/Icon-axe.png
+  artifactKey: Guid(f857a1dc44b9e4bcbb94795dfccca918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/UI/Icon-axe.png using Guid(f857a1dc44b9e4bcbb94795dfccca918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2507f0204755f1cab31e4bab2508d619') in 0.050212 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_042.png
+  artifactKey: Guid(7892bbc02249e44f4926eb30e4191d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_042.png using Guid(7892bbc02249e44f4926eb30e4191d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48c9faacbc5bb51659394e8df8d139d') in 0.058280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/crate1.png
+  artifactKey: Guid(56b1444c0fed44c549f5de8b0455f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/crate1.png using Guid(56b1444c0fed44c549f5de8b0455f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030ab841dfda02fd1ef39daec421cc9f') in 0.070322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_039.png
+  artifactKey: Guid(fbe5362bb0d3a438989eb870894df5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_039.png using Guid(fbe5362bb0d3a438989eb870894df5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a9f6fb10593f451addfb367156e5261') in 0.060329 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/t6.png
+  artifactKey: Guid(b358900c1c3254ff382e603c3d840e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/t6.png using Guid(b358900c1c3254ff382e603c3d840e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ae710baea7cf353c2c7826afec9e66') in 0.077395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_121.png
+  artifactKey: Guid(f716f401b5c8e4032a8e71b17b882345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_121.png using Guid(f716f401b5c8e4032a8e71b17b882345) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3cad41bca8aa64e00e74da05b195bb4') in 0.073812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_011.png
+  artifactKey: Guid(408307235f21b4215914701eb5167531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_011.png using Guid(408307235f21b4215914701eb5167531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577a9cf0316fbb0a1ccadda2d8b6d29b') in 0.123403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/UI/Icon-attention.png
+  artifactKey: Guid(7c91790bcda434338bc29f9562acf8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/UI/Icon-attention.png using Guid(7c91790bcda434338bc29f9562acf8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a38c2a24806255a3be5c0e75bf0d3330') in 0.042226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_002.png
+  artifactKey: Guid(366145a934a8240e98541db7e10de657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_002.png using Guid(366145a934a8240e98541db7e10de657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb8f64411bbe311b3de65d4119e4a367') in 0.044032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_019.png
+  artifactKey: Guid(26db6971cd8ec4da4b881a5f6284e354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_019.png using Guid(26db6971cd8ec4da4b881a5f6284e354) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077370185cba90f77c747627aad38108') in 0.104993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_017.png
+  artifactKey: Guid(f59426dac771c4e6f89f8e8225679c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_017.png using Guid(f59426dac771c4e6f89f8e8225679c81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2572fbe1b136d2ca9adc3b72c5f7ea') in 0.063990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_004.png
+  artifactKey: Guid(8157be61976ae4f9085ffe4ea7edd537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_004.png using Guid(8157be61976ae4f9085ffe4ea7edd537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80128ecb69e32fe8efafcd7c81566636') in 0.071034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/w2.png
+  artifactKey: Guid(bee5e1843b42f4f2698f18beaa4bdded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/w2.png using Guid(bee5e1843b42f4f2698f18beaa4bdded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b48880fb1fe11ca979bc59f92992440') in 0.079582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr3.png
+  artifactKey: Guid(72438928d8de54337bf987fa846bb5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/tr3.png using Guid(72438928d8de54337bf987fa846bb5c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6671ccae24d2e642b27413e2900b90d') in 0.257737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/UI/Icon-coin.png
+  artifactKey: Guid(401e479c4a4154d12911598b3853c07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/UI/Icon-coin.png using Guid(401e479c4a4154d12911598b3853c07d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce33001052d0b94ffe28248da3e54bb') in 0.071727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/IsoTools/Examples/Images/Simple/Cube_3x1x1.png
+  artifactKey: Guid(3459d1c3ed403234288c562aeede56d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Simple/Cube_3x1x1.png using Guid(3459d1c3ed403234288c562aeede56d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e813578b143e904be0f4fe0b339bda6') in 0.090628 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/parts/C1LHand1.png
+  artifactKey: Guid(af95cb72605734205b69c1baf1490f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/parts/C1LHand1.png using Guid(af95cb72605734205b69c1baf1490f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9968db6fd7a7dfd310191c0d36394d4d') in 0.055944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_061.png
+  artifactKey: Guid(b7d6af2716d584c24bc68009d331e8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_061.png using Guid(b7d6af2716d584c24bc68009d331e8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d329b45dba1495a0c583069d9971826') in 0.059857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_062.png
+  artifactKey: Guid(957e294cb89da4a0da3ba2e5721e464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_062.png using Guid(957e294cb89da4a0da3ba2e5721e464a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ae6ec19bc5c8f7956bf9737c82e6f12') in 0.065009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_036.png
+  artifactKey: Guid(fe603ddb11b5b45d89143870ae7c13ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_036.png using Guid(fe603ddb11b5b45d89143870ae7c13ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a734c4636bbd0a1301d8d8e81a02ed3') in 0.055349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_033.png
+  artifactKey: Guid(06673786b9a014df987999d9b105ee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_033.png using Guid(06673786b9a014df987999d9b105ee4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68554758415a11c9be9e62a48013eeb9') in 0.066354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/d1.png
+  artifactKey: Guid(3ba1a9525db8e47bb82a1863c02dec02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/d1.png using Guid(3ba1a9525db8e47bb82a1863c02dec02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c021639831989cbfa164aade198f2d9') in 0.053053 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/parts/C1LBoot1.png
+  artifactKey: Guid(c28e8b749cd4b4705ad2360f314d476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/parts/C1LBoot1.png using Guid(c28e8b749cd4b4705ad2360f314d476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '933a1c11d8933f71557bb42f3b850e8e') in 0.066372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_047.png
+  artifactKey: Guid(6c2ba5ac1e4a54b09aa2eafd1ae628e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_047.png using Guid(6c2ba5ac1e4a54b09aa2eafd1ae628e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07f228278405d8b740ac68f3f3a8113') in 0.048821 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/NPC4.png
+  artifactKey: Guid(082761a9ab9fd4d3ea811ec1258875f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/NPC4.png using Guid(082761a9ab9fd4d3ea811ec1258875f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5f6575276cbe01da2c885e404e6061c') in 0.086209 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_100.png
+  artifactKey: Guid(2583f637159d34a1695b6220431aef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_100.png using Guid(2583f637159d34a1695b6220431aef3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07183e751763b5a48a209564974204a') in 0.064535 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_021.png
+  artifactKey: Guid(c93baad63379d4b188f0d7807fc1dc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_021.png using Guid(c93baad63379d4b188f0d7807fc1dc41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e3d473b474502e584078648bf99121') in 0.047303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_051.png
+  artifactKey: Guid(76dc7554ef5624867bbc4938f510e12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/Buildings/buildingTiles_051.png using Guid(76dc7554ef5624867bbc4938f510e12b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '101b87a1fa2900101c4e2b94434c77c5') in 0.048219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/parts/C1REye.png
+  artifactKey: Guid(d342bb376b618483a969f8b2c309df59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/NPC/parts/C1REye.png using Guid(d342bb376b618483a969f8b2c309df59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab11eea81f6676b4bd296fc55c87a2a7') in 0.045712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_001.png
+  artifactKey: Guid(44a6c955f23d64c8c84491f484ebed1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_001.png using Guid(44a6c955f23d64c8c84491f484ebed1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95a6f4588aa40f2d6a44fcc887606567') in 0.046720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/w5.png
+  artifactKey: Guid(914249c2be5fc42eaba6b2ea682631e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/w5.png using Guid(914249c2be5fc42eaba6b2ea682631e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3224829f2382f08e5c742f6ea04388b') in 0.041298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_068.png
+  artifactKey: Guid(b325f2d1a07fd4a17ae0eab33191d444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_068.png using Guid(b325f2d1a07fd4a17ae0eab33191d444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54554b4274ef97e0041c35105286e6f7') in 0.041039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/tile5.png
+  artifactKey: Guid(64af31dc350004f0384b2e0a0f6ba1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/Tiles/tile5.png using Guid(64af31dc350004f0384b2e0a0f6ba1e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edfa45732f8cb8b4470b38d2122f073e') in 0.052757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_024.png
+  artifactKey: Guid(469c559d6f2e4425da391a8b0dedf306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_024.png using Guid(469c559d6f2e4425da391a8b0dedf306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c5f983b0fda2598b6af614705daf2a') in 0.051082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/halo.png
+  artifactKey: Guid(820959b18d0e34909a7f0a82d5ab4989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/halo.png using Guid(820959b18d0e34909a7f0a82d5ab4989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd540dd8bea3238fcbcf9e6e55a77cfe8') in 0.056139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/e3.png
+  artifactKey: Guid(2bfb3851727d84ee6b21ddab58f2e500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/adventure-tileset/tiles/e3.png using Guid(2bfb3851727d84ee6b21ddab58f2e500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7546211ce40c998c6e103d1153771cd9') in 0.048471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_031.png
+  artifactKey: Guid(a29a1ae6ab6fa4492a4229402509f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_031.png using Guid(a29a1ae6ab6fa4492a4229402509f7f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a12ac35ee10862ab7865f8e98cbeaf') in 0.049793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_104.png
+  artifactKey: Guid(bf25e38861a70481693a10ceefa12deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_104.png using Guid(bf25e38861a70481693a10ceefa12deb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82fa8b2506ef13d2151d0e07cc6b5ba') in 0.044582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_096.png
+  artifactKey: Guid(dbe8429b3bff6404b85fafd58e245f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_096.png using Guid(dbe8429b3bff6404b85fafd58e245f0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00d93dc3fe92d2f98593fdc2f2b9726f') in 0.039690 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_015.png
+  artifactKey: Guid(a1f4be50922a34dd7a1d93673d769678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_015.png using Guid(a1f4be50922a34dd7a1d93673d769678) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33aecd18a3b0083fa89dc8ac9263c923') in 0.040096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_048.png
+  artifactKey: Guid(dc91c9860c6b24fd2ae2082b571e03f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Kenney/City/cityTiles_048.png using Guid(dc91c9860c6b24fd2ae2082b571e03f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27890d642683665940f4da12fd95973') in 0.042056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/UI/Icon-potion.png
+  artifactKey: Guid(cf64802c81793409ea46da5270a547e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IsoTools/Examples/Images/Dragosha/dungeon-tileset/UI/Icon-potion.png using Guid(cf64802c81793409ea46da5270a547e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82295c5cd5d17e2b01b14eb6a8cb0488') in 0.043381 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
