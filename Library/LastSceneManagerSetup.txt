@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/UI like.unity
+=======
+- path: Assets/Scenes/Tilemap.unity
+>>>>>>> 71f2ee097b1e1f49346696807c9515a2a119251f
   isLoaded: 1
   isActive: 1
   isSubScene: 0
